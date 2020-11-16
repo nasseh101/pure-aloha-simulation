@@ -172,7 +172,7 @@ class Station(object):
         getting_frame_size = False  
     return val
 
-  # This fucntion adds events_queue and ensures that events in the queue are ordered by time
+  # This function adds events_queue and ensures that events in the queue are ordered by time
   def add_to_events_queue(self, event):
     size = len(self.events_queue)
     if size == 0:
